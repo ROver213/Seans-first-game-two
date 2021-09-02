@@ -23,7 +23,7 @@ public class kamikazecontroller : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(KeyCode.W)){
-          rb.AddRelativeForce(Vector2.up*movespeed * Time.deltaTime);
+          rb.AddRelativeForce(Vector2.up*movespeed);
             if(engineparticle.isPlaying == false)
             {
                 engineparticle.Play();
@@ -38,10 +38,10 @@ public class kamikazecontroller : MonoBehaviour
 
 
         if(Input.GetKey(KeyCode.D)){
-          transform.Rotate(0,0,-rotatespeed* Time.deltaTime,Space.World);
+          transform.Rotate(0,0,-rotatespeed,Space.World);
         }
          if(Input.GetKey(KeyCode.A)){
-          transform.Rotate(0,0,rotatespeed * Time.deltaTime,Space.World);
+          transform.Rotate(0,0,rotatespeed,Space.World);
         }
 
     }
