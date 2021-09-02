@@ -1,0 +1,108 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49556
+Successfully changed project path to: /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
+/Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 950.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-26 17:52:12.011 Unity[912:15369] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-08-26 17:52:12.012 Unity[912:15369] Metal devices available: 1
+2021-08-26 17:52:12.012 Unity[912:15369] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-08-26 17:52:12.014 Unity[912:15369] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.15f2/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.009714 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 485.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 27.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (27302ms)
+		BeginReloadAssembly (1111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (9855ms)
+			LoadAssemblies (1112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (5126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (638ms)
+			SetupLoadedEditorAssemblies (2931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (486ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (1732ms)
+				ProcessInitializeOnLoadMethodAttributes (495ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 707.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 31.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (31736ms)
+		BeginReloadAssembly (4278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (160ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (33ms)
+			CreateAndSetChildDomain (809ms)
+		EndReloadAssembly (25835ms)
+			LoadAssemblies (2275ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (9471ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (1335ms)
+			SetupLoadedEditorAssemblies (9349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (708ms)
+				BeforeProcessingInitializeOnLoad (1093ms)
+				ProcessInitializeOnLoadAttributes (6699ms)
+				ProcessInitializeOnLoadMethodAttributes (739ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (296ms)
+Platform modules already initialized, skipping

@@ -6,38 +6,34 @@ Using pre-set license
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker4
 -projectPath
 /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker4.log
 -srvPort
-52929
+49556
 Successfully changed project path to: /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
 /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 3281.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1066.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/seanahern/Desktop/Unity projects/Seans-first-game-two/Seans physics sandbox/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-02 17:10:08.369 Unity[6450:612180] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-09-02 17:10:08.369 Unity[6450:612180] Metal devices available: 1
-2021-09-02 17:10:08.372 Unity[6450:612180] 0: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-09-02 17:10:08.561 Unity[6450:612180] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+2021-08-26 17:51:41.969 Unity[910:15118] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-08-26 17:51:41.969 Unity[910:15118] Metal devices available: 1
+2021-08-26 17:51:41.969 Unity[910:15118] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-08-26 17:51:41.969 Unity[910:15118] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56450
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56910
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.15f2/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004261 seconds.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1254.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Registered in 0.044291 seconds.
