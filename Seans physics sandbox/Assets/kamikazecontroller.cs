@@ -11,6 +11,14 @@ public class kamikazecontroller : MonoBehaviour
     Rigidbody2D rb;
     public float movespeed;
     public float rotatespeed;
+    public GameObject particles;
+    public GameObject particleposition;
+    public bool particleplaying = false;
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,16 +32,23 @@ public class kamikazecontroller : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.W)){
           rb.AddRelativeForce(Vector2.up*movespeed * Time.deltaTime);
-            if(engineparticle.isPlaying == false)
+            if(particleplaying == false)
             {
-                engineparticle.Play();
+                GameObject myparticles = Instantiate(particles, particleposition.transform.position, Quaternion.identity);
+                myparticles.transform.parent = particleposition.transform;
+                particleplaying = true;
+
             }
 
         }
 
         if (Input.GetKeyUp(KeyCode.W))
         {
-            engineparticle.Stop();
+            particleplaying = false;
+            foreach(Transform child in particleposition.transform)
+            {
+                child.GetComponent<ParticleSystem>().Stop();
+            }
         }
 
 
