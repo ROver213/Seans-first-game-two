@@ -12,7 +12,7 @@ public class clickspawn : MonoBehaviour
     public GameObject squarestill;
     public bool spawncircles;
     public float spawntime;
-
+   
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +61,12 @@ public class clickspawn : MonoBehaviour
 
             Spawnobject(flinger);
         }
+
+       
+
+
+
+
 
     }
 
