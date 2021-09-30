@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circle: {fileID: 2066151160215012712, guid: fbc005557b33843bebf1ee4235ef602b, type: 3}
   dudeonthemoon: {fileID: 9056353703932557811, guid: 12762dd34c3284bb3bced5503eb39a0a, type: 3}
-  flinger: {fileID: 6655206151184651276, guid: 18906e90f88e042ed8fa9b0863bc6908, type: 3}
+  flinger: {fileID: 1027064362767058507, guid: 328bff8c26b1c43cdb047675620a1429, type: 3}
   square: {fileID: 2066151160215012712, guid: d36ac948578fc48968962848d106d885, type: 3}
   squarestill: {fileID: 2066151160215012712, guid: 88769e1260bda41cfbc3fd619b7aa3a1, type: 3}
   spawncircles: 1
@@ -5749,8 +5749,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 223660441842969246, guid: dc9f6af2d6c254a62a6244002ea80f97, type: 3}
+      propertyPath: ballSpawn
+      value: 
+      objectReference: {fileID: 2066151160215012712, guid: fbc005557b33843bebf1ee4235ef602b, type: 3}
+    - target: {fileID: 223660441842969246, guid: dc9f6af2d6c254a62a6244002ea80f97, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223660441842969246, guid: dc9f6af2d6c254a62a6244002ea80f97, type: 3}
       propertyPath: timeSpawner
