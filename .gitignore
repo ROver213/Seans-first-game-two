@@ -36,3 +36,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Seans physics sandbox/Logs/AssetImportWorker0-prev.log
+Seans physics sandbox/Logs/AssetImportWorker0.log
+Seans physics sandbox/Logs/shadercompiler-AssetImportWorker0.log
+Seans physics sandbox/Logs/shadercompiler-UnityShaderCompiler0.log
